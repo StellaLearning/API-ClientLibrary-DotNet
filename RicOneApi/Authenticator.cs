@@ -63,6 +63,7 @@ namespace RicOneApi.Api
         /// </summary>
         /// <param name="clientId">The clientId for the application.</param>
         /// <param name="clientSecret">The clientSecret for the application.</param>
+        [Obsolete("The RIC One services are no longer available: https://www.ricone.org/about/")]
         private void Login(string clientId, string clientSecret)
         {
             try
